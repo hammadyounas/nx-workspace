@@ -6,9 +6,10 @@ import { NxWelcomeComponent } from './nx-welcome.component';
 import { FormlyModule } from '@ngx-formly/core';
 import { FormlyBootstrapModule } from '@ngx-formly/bootstrap';
 import { ReactiveFormsModule } from '@angular/forms';
+import { WrapperComponent } from './wrapper/wrapper.component';
 
 @NgModule({
-  declarations: [AppComponent, NxWelcomeComponent],
+  declarations: [AppComponent, NxWelcomeComponent, WrapperComponent],
   imports: [
     BrowserModule,
     ReactiveFormsModule,

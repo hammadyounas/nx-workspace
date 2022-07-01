@@ -9,7 +9,7 @@ import { Todo } from '@test/data'
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'test';
+  title = 'test title';
   todos: Todo[] = [{ title: 'Todo 1' }, { title: 'Todo 2' }];
   form = new FormGroup({});
   model: any = {};
